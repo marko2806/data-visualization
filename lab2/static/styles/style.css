@@ -1,0 +1,49 @@
+.grid line {
+  stroke: lightgrey;
+  stroke-opacity: 0.7;
+  shape-rendering: crispEdges;
+}
+
+.tooltip {
+    position: absolute;
+    opacity: 0.8;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.container {
+    display: table-cell;
+    vertical-align:top;
+    height: 500px;
+    padding: 10px;
+    border: 0px solid black;
+    text-align: center;
+    font-size: large;
+}
+
+path {
+    stroke: black;
+    stroke-width: 1px;
+    fill: white;
+    opacity: 1;
+}
+
+rect {
+    stroke-width: 2;
+    stroke: black;
+    fill: none;
+}
+
+.highlightable {
+    stroke-width: 1;
+    fill: white;
+}
+
+.highlighted {
+    stroke-width: 2;
+    fill: moccasin;
+}
+
